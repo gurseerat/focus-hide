@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { FocusHideDirective } from './focus-hide.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FocusHideDirective
   ],
   imports: [
     BrowserModule
